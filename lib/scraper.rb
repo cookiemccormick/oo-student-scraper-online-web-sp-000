@@ -11,6 +11,7 @@ class Scraper
     student_profiles = []
 
     student_profiles.css("div.roster-cards-container")
+    binding.pry
 
   end
 
