@@ -4,7 +4,7 @@ require 'nokogiri'
 
 class Scraper
 
-  def self.scrape_index_page('fixtures/student-site/index.html')
+  def self.scrape_index_page(fixtures/student-site/index.html)
     html = File.read('fixtures/student-site/index.html')
     students = Nokogiri::HTML(html)
 
